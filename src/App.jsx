@@ -16,7 +16,7 @@ function App() {
           </button>
         </p>
         <p>
-          ¡1er entrega!
+          ¡2da entrega!
         </p>
       </header>
     </div>

@@ -1,10 +1,11 @@
 import './navbar.css'
-import './main.css'
+import '../../main.css'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
-
+import Widget from '../Cart/CartWidget';
+import Text from '../Texts/Texts'
 library.add(fas, far);
 
 
@@ -23,6 +24,7 @@ function Navbar() {
                     <li><a href="#">Productos</a></li>
                     <li><a href="#">Acerca de</a></li>
                     <li><a href="#">Contacto</a></li>
+                    <Widget/>
                 </div>
             </div>
         </div>
